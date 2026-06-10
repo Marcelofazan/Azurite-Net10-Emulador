@@ -21,13 +21,12 @@ Clique com Botão Inverso em **(Emulador Portas Padrão)** e escolha a opção *
 
 #### ⚠️ Chave Key de conexão do Emulador
 
-- Altere pela sua chave nos locais indicados 
+- Altere pela sua Chave Primária nos locais indicados 
 ```bash
 var connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=[SUA_CHAVE_PRIMIARIA];BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1;";
 var connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=[SUA_CHAVE_PRIMIARIA];QueueEndpoint=http://127.0.0.1:10001/devstoreaccount1;";
 var connectionString = "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=[SUA_CHAVE_PRIMIARIA];TableEndpoint=http://127.0.0.1:10002/devstoreaccount1;";
 ```
-- Altere por sua Chave Primária 
 
 #### 🔄 Executar a aplicação
 
